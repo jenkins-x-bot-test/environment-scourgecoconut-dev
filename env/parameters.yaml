@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:scourgecoconut/adminUser:password
+  username: admin
+dashboardAuthID: vault:scourgecoconut:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:scourgecoconut:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:scourgecoconut/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:scourgecoconut/prow:hmacToken
